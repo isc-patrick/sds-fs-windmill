@@ -37,7 +37,6 @@ entries:
     name: windmill
     sources:
     - https://github.com/windmill-labs/windmill-helm-charts.git
-    type: application
     urls:
     - https://isc-patrick.github.io/sds-fs-windmill/windmill-1.6.50.tgz
     version: 1.6.50
