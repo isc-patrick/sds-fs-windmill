@@ -1,14 +1,9 @@
 apiVersion: v1
 entries:
   windmill:
-  - annotations:
-      intersystems/sds-category: custom
-      intersystems/sds-organization: InterSystems Corporation
-      intersystems/sds-title: Windmill Service
-    apiVersion: v2
+  - apiVersion: v2
     appVersion: 1.138.0
-    created: "2023-07-31T09:52:14.534231-04:00"
-    type: application
+    created: "2023-07-31T15:35:36.70605-04:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -19,7 +14,7 @@ entries:
       repository: https://charts.bitnami.com/bitnami
       version: 12.4.2
     description: Windmill - Turn scripts into endpoints, workflows and UIs in minutes
-    digest: cb7760a379b127ae43bde76a75da3d13fdd7445640ddbf81ab529b7ca96befd0
+    digest: bd7b03522ca803bd642acf9b7291ccc10cab0dc884d1f37511670812267dc922
     home: https://www.windmill.dev/
     icon: https://isc-patrick.github.io/sds-fs-windmill/sds-fs-windmill-svc/
     keywords:
@@ -37,7 +32,8 @@ entries:
     name: windmill
     sources:
     - https://github.com/windmill-labs/windmill-helm-charts.git
+    type: application
     urls:
     - https://isc-patrick.github.io/sds-fs-windmill/windmill-1.6.50.tgz
     version: 1.6.50
-generated: "2023-07-31T09:52:14.520375-04:00"
+generated: "2023-07-31T15:35:36.695016-04:00"
