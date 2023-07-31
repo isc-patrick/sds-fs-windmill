@@ -3,7 +3,7 @@ entries:
   windmill:
   - apiVersion: v2
     appVersion: 1.138.0
-    created: "2023-07-28T11:50:39.542225-04:00"
+    created: "2023-07-31T09:51:25.928156-04:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -14,9 +14,9 @@ entries:
       repository: https://charts.bitnami.com/bitnami
       version: 12.4.2
     description: Windmill - Turn scripts into endpoints, workflows and UIs in minutes
-    digest: 86112e109518c322e1dd5fcfa4226d00ad9fe262951147bc8e78ee2c8a3d7671
+    digest: e1dc363d674997c5629dd166267504eca444b0c78a893158980955a7fb06c04f
     home: https://www.windmill.dev/
-    icon: https://isc-patrick.github.io/sds-fs-windmill/windmill-helm-charts/
+    icon: https://isc-patrick.github.io/sds-fs-windmill/sds-fs-windmill-svc/
     keywords:
     - windmill
     - scripts
@@ -36,4 +36,4 @@ entries:
     urls:
     - https://isc-patrick.github.io/sds-fs-windmill/windmill-1.6.50.tgz
     version: 1.6.50
-generated: "2023-07-28T11:50:39.528467-04:00"
+generated: "2023-07-31T09:51:25.914945-04:00"
