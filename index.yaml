@@ -4,6 +4,11 @@ entries:
   - apiVersion: v2
     appVersion: 1.138.0
     created: "2023-07-31T09:52:14.534231-04:00"
+    - annotations:
+      intersystems/sds-category: custom
+      intersystems/sds-organization: InterSystems Corporation
+      intersystems/sds-title: Windmill Service
+    type: application
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
