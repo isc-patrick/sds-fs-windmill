@@ -1,6 +1,10 @@
 apiVersion: v1
 entries:
   windmill:
+  - annotations:
+    intersystems/sds-category: custom
+    intersystems/sds-organization: InterSystems Corporation
+    intersystems/sds-title: Stratification Service
   - apiVersion: v2
     appVersion: 1.138.0
     created: "2023-07-31T15:35:36.70605-04:00"
@@ -17,14 +21,6 @@ entries:
     digest: bd7b03522ca803bd642acf9b7291ccc10cab0dc884d1f37511670812267dc922
     home: https://www.windmill.dev/
     icon: https://isc-patrick.github.io/sds-fs-windmill/sds-fs-windmill-svc/
-    keywords:
-    - windmill
-    - scripts
-    - flows
-    - workflows
-    - internal
-    - apps
-    - open-source
     maintainers:
     - email: ruben@windmill.dev
       name: windmill
