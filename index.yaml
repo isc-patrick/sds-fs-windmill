@@ -1,10 +1,6 @@
 apiVersion: v1
 entries:
   windmill:
-  - annotations:
-    intersystems/sds-category: custom
-    intersystems/sds-organization: InterSystems Corporation
-    intersystems/sds-title: Stratification Service
   - apiVersion: v2
     appVersion: 1.138.0
     created: "2023-07-31T15:35:36.70605-04:00"
